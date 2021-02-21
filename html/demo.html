@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Records</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/demo.css" />
+  </head>
+    <body>
+
+        <!-- Header -->
+        <header class="col-12 col-md-12 col-lg-12">
+            <a title="ID Records" href="../index.html"><img src="../img/logo_white_large.png" alt="Logotip ID Records" id="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="../html/musica.html">MUSICA</a></li>
+                    <li><a href="../html/demo.html">DEMO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="col-12 col-md-12 col-lg-12" id="novetats">
+            <div id="Titols">
+                <h1>ENVIA LA TEVA CANÇÓ</h1>
+                <p>NOSALTRES L'ESCOLTEM</p>
+            </div>
+            <form action="formulario-contacto.php" method="post">	
+                <input name="nombre" type="text" placeholder="Nom" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+                <input name="email" type="email" placeholder="Correu electrónic" required />	
+                <textarea name="consulta" placeholder="Enllaç privat de la teva canço" rows="6" required></textarea>
+                <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+            </form>	 
+        </main>
+
+       <!-- Footer -->
+       <footer class="col-12" id="footerSecundari">     
+        <div class="col-12" id="DivLogoFooter">
+                <a href="../index.html"><img src="../img/logo_small_icon_only-white.png" alt="" id="LogoDiscograficaFooter"></a>
+        </div>
+        
+    </footer>
+    <footer class="col-12">
+        <div id="logotips">
+            <a href="https://www.swhosting.com/es" target="_blank"><img src="../img/swhosting-black.png" alt="LogotipSwhosting"></a>
+            <a href="https://wapps.cat/" target="_blank"><img src="../img/wappsblanco-black.png" alt="LogotipWapps"></a>
+            <a href="https://www.dondominio.com/" target="_blank"><img src="../img/dondominio-black.png" alt="LogotipDonDominio"></a>     
+        </div> 
+    </footer>
+   </body>
+</html>
